@@ -40,7 +40,7 @@ public class LoginPage extends javax.swing.JFrame {
 
         Password.setText("Password;");
 
-        jButton1.setText("Submitt");
+        jButton1.setText("Submit");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -53,7 +53,7 @@ public class LoginPage extends javax.swing.JFrame {
 
         jLabel4.setText("Enter Secret Code:");
 
-        jButton2.setText("submitt");
+        jButton2.setText("submit");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
@@ -139,7 +139,7 @@ public class LoginPage extends javax.swing.JFrame {
         String un=user.getText();
         String p=pass.getText();
         
-        if(un.equals("admin") && p.equals("admin")){
+        if(un.equals("Nijikon") && p.equals("1357")){
         MenuPage obj=new MenuPage();
         obj.setVisible(true);
         dispose();
@@ -154,11 +154,11 @@ public class LoginPage extends javax.swing.JFrame {
         
         String secret=sc.getText();
         
-        if(secret.equals("123")){
-            JOptionPane.showMessageDialog(rootPane, "Your user name and password is 'admin'");
+        if(secret.equals("2468")){
+            JOptionPane.showMessageDialog(rootPane, "Your user name is Nijikon and your password is 1357");
         }
         else{
-        JOptionPane.showMessageDialog(rootPane, "You forgot the secret code to... Now Go to hell :D");}
+        JOptionPane.showMessageDialog(rootPane, "Secret code is incorrect");}
     }
 
     public static void main(String args[]) {
