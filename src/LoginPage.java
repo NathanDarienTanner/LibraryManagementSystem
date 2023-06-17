@@ -175,7 +175,7 @@ public class LoginPage extends javax.swing.JFrame {
         String secret=sc.getText();
         
         if(secret.equals("2468")){
-            JOptionPane.showMessageDialog(rootPane, "Your username is Nijikon and your password is 2468");
+            JOptionPane.showMessageDialog(rootPane, "Your username is Nijikon and your password is 1357");
         }
         else{
         JOptionPane.showMessageDialog(rootPane, "Secret code invalid");}
