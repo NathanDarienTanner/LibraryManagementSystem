@@ -72,7 +72,7 @@ public class LoginPage extends javax.swing.JFrame {
 
         jLabel4.setText("Enter Secret Code:");
 
-        jButton2.setText("submitt");
+        jButton2.setText("Submit");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton2ActionPerformed(evt);
